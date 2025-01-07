@@ -1,1 +1,3 @@
 .vscode
+#ignore main.cpp
+main.cpp
