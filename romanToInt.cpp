@@ -26,3 +26,31 @@ public:
         return result;
     }
 };
+
+{1000, "M"}, {900, "CM"}, {500, "D"}, {400, "CD"}, {100, "C"}, {90, "XC"}, {50, "L"}, {40, "XL"}, {10, "X"}, {9, "IX"}, {5, "V"}, {4, "IV"}, {1, "I"}
+
+;
+/*
+class Solution
+{
+public:
+    int romanToInt(string s)
+    {
+
+        const pair<int, const char *> roman_map[] = {
+            {1000, "M"}, {900, "CM"}, {500, "D"}, {400, "CD"}, {100, "C"}, {90, "XC"}, {50, "L"}, {40, "XL"}, {10, "X"}, {9, "IX"}, {5, "V"}, {4, "IV"}, {1, "I"}};
+
+        int result = 0;
+        for (const auto &entry : roman_map)
+        {
+            while (s.find(entry.second) == 0)
+            {
+                result += entry.first;
+                s = s.substr(strlen(entry.second));
+            }
+        }
+        return result;
+    }
+};
+
+*/
