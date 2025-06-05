@@ -1,4 +1,4 @@
 .vscode
 main.cpp
 *.out
-*exe
+*.exe
